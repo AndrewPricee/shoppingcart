@@ -46,7 +46,7 @@ function display_all() {
     myTable += "<th style='width: 50px; text-align: right;'>Total</th>";
 
     for (i = 0; i < items.length; i++) {
-        myTable += "<tr><td style='width: 50px; text-align: right;'>" + items[i] + "</td><";
+        myTable += "<tr><td style='width: 50px; text-align: right;'>" + items[i] + "</td>";
         myTable += "<td style='width: 50px; text-align: right;'>" + prices[i] + "</td>";
         myTable += "<td style='width: 50px; text-align: right;'>" + quantities[i] + "</td>";
         myTable += "<td style='width: 50px; text-align: right;'>" + totals[i] + "</td>";
